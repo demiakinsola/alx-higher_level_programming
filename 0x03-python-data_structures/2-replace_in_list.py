@@ -7,4 +7,4 @@ def replace_in_list(my_list, idx, element):
         return my_list
 # Used -1 because index starts from 0 but length from 1.
     else:
-        my_list[idx] = new_element
+        my_list[idx] = element
