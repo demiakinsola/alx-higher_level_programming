@@ -9,5 +9,5 @@ def new_in_list(my_list, idx, element):
         return my_list
 # Length starts counting from 1 not 0.
     else:
-        create[idx] = element
+        create_list[idx] = element
         return create_list
