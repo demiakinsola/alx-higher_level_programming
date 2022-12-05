@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def new_in_list(my_list, idx, element):
-    create_list = my_list
+    create_list = [i for i in my_list]
 # Make a copy of the original list.
     if idx < 0:
         return my_list
